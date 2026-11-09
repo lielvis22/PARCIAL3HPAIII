@@ -106,7 +106,7 @@ Parcial3/
     ├── Program.cs                  # Login, registro e historial de intentos
     └── BaseDatos/
         ├── LoginBCrypt.sql         # Script de creación de la BD y sus tablas
-        └── backup_loginbcrypt.sql  # Backup de la BD exportado desde MySQL Workbench
+        └── BackupEjercicio3ElvLi.sql  # Backup de la BD (estructura + datos) exportado desde MySQL Workbench
 ```
 
 ### Base de datos `loginbcrypt`
@@ -140,8 +140,10 @@ dotnet run
 ```
 
 **Ejercicio 3**
-1. Restaure la base de datos en MySQL Workbench: ejecute `BaseDatos/LoginBCrypt.sql` o importe el backup `BaseDatos/backup_loginbcrypt.sql` (**Server → Data Import**).
-2. En `Program.cs`, cambie `TU_CONTRASEÑA` en `CadenaConexion` por la contraseña del usuario `root` de MySQL.
+1. Restaure la base de datos en MySQL Workbench con una de estas opciones:
+   - **Desde cero:** ejecute `BaseDatos/LoginBCrypt.sql` (crea la BD `loginbcrypt` y sus tablas vacías).
+   - **Con datos:** cree el esquema `loginbcrypt` e importe `BaseDatos/BackupEjercicio3ElvLi.sql` con **Server → Data Import**, eligiendo `loginbcrypt` como esquema de destino.
+2. En `Program.cs`, la `CadenaConexion` usa el usuario `root` con la contraseña `elvisli22`. Si su MySQL tiene otra contraseña, cámbiela en esa línea.
 3. Ejecute:
    ```bash
    cd Ejercicio3_LoginBCrypt
