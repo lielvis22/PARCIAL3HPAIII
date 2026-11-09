@@ -67,16 +67,24 @@ Este repositorio contiene la parte práctica del Parcial #3. Reúne tres program
 ## 📸 Capturas
 
 ### Ejercicio 1: Figuras
-![Ejercicio 1](capturas/ejercicio1.png)
+<img width="800" alt="captura" src="https://github.com/user-attachments/assets/933553bf-928b-4a21-a87c-c40914ccd6a8" />
 
 ### Ejercicio 2: JSON
-![Ejercicio 2](capturas/ejercicio2.png)
+<img width="800" alt="captura" src="https://github.com/user-attachments/assets/50c23f73-4096-4a86-8dc9-959984bb5429" />
 
 ### Ejercicio 3: Login con BCrypt
-![Registro e inicio de sesión](capturas/ejercicio3_login.png)
+
+#### Registro de Usuario
+<img width="800" alt="captura" src="https://github.com/user-attachments/assets/3d384b81-7ead-4229-a1ef-1af382b566d8" />
+
+#### Inicio de Sesión
+<img width="800" alt="captura" src="https://github.com/user-attachments/assets/f4860df1-04e7-47da-a7b2-67c3fae6701e" />
+
+#### Historial de Registro
+<img width="800" alt="captura" src="https://github.com/user-attachments/assets/23be4f3e-cdf9-4fb1-8d69-afc67c562f67" />
 
 ### Ejercicio 3: Tablas en MySQL
-![Intentos en MySQL](capturas/ejercicio3_mysql.png)
+<img width="800" alt="captura" src="https://github.com/user-attachments/assets/d602e12d-6d4f-41ec-9f27-ed4c40fe74d1" />
 
 ---
 
@@ -87,7 +95,6 @@ Parcial3/
 ├── Parcial3.sln                    # Solución con los 3 proyectos
 ├── README.md
 ├── .gitignore
-├── capturas/                       # Evidencia de la ejecución
 ├── Ejercicio1_Figuras/
 │   ├── Ejercicio1_Figuras.csproj
 │   └── Program.cs                  # Figura, Rectangulo, Cuadrado, Triangulo y Main
@@ -116,8 +123,8 @@ Parcial3/
 **Requisitos:** .NET SDK 10 y MySQL Server 8.0.
 
 ```bash
-git clone https://github.com/TU_USUARIO/Parcial3.git
-cd Parcial3
+git clone https://github.com/lielvis22/PARCIAL3HPAIII.git
+cd PARCIAL3HPAIII
 ```
 
 **Ejercicio 1**
